@@ -785,9 +785,6 @@ public final class CSVFormat implements Serializable {
             sb.append("Header:").append(Arrays.toString(header));
         }
         return sb.toString();
-    }
-
-        }
         if (isLineBreak(delimiter)) {
             throw new IllegalArgumentException("The delimiter cannot be a line break");
         }
