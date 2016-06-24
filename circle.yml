@@ -15,10 +15,4 @@ test:
     - find . -type f -regex ".*/target/failsafe-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
     
 
-+ System.out.print('.');
-+ try {
-+ Thread.currentThread().sleep(1);
-+ } catch (InterruptedException e) {
-+ break;
-+ }
-+ } 
+
